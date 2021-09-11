@@ -1,0 +1,77 @@
+#rangkuman bab 9 
+Test plan adalah dokumen yang mendefinisikan scope dan aktifitas yang dilakukan saat pengujian software atau sistem. Test plan identifier merupakan pengenal dari dokumen test plan yang dapat berupa kode unik maupun informasi penyusun dan tanggal disusunnya dokumen, tanggal revisi dan lain-lain. Test items berisi tentang daftar item yang akan diteskan. dapat disebutkan satu maupun lebih modul proyek yang ada pada sistem tersebut. Contohnya : Batasan dari pengujian ini menyangkup Aplikasi Web SEO v.1.0 khususnya pada modul HRD. software risk issue Mencakup kemungkinan terjadinya hal-hal yang tidak pasti dan memiliki potensi kerugian sehingga menghambat jalannya pengembangan perangkat lunak. approach adalah bagian yang digunakan untuk memberi deskirpsi mengenai cara/approach yang dilakukan untuk melaksanakan testing dan disertakan dengan penjelasan mengenai approach yang digunakan. Item Pass/Fail Criteria bagian berkaitan dengan menentukan kapan item telah lulus atau gagal. ini bukan tempat untuk menentukan kriteria kelulusan yang terperinci untuk setiap fitur, tetapi untuk menggambarkan proses dan standar keseluruhan untuk mengevaluasi hasil pengujian. Suspension Criteria and Resumption Requirements menentukan kriteria yang akan digunakan untuk dimulainya kembali semua atau sebagian kegiatan pengujian sementara kriteria dimulainya kembali menentukan kapan pengujian dapat dilanjutkan setelah dihentikan. remaining test tasks adalah tahapan yang harus dilakukan saat sebuah aplikasi dirilis secara bertahap, yang mana hal ini dilakukan untuk mengontrol jika sewaktu-waktu software yang dirancang mengalami cacat pada bagian fiturnya. Environmental needs menjelaskan persyaratan untuk lingkungan pengujian. Termasuk  dalam perangkat keras, perangkat lunak, atau persyaratan lingkungan lainnya untuk pengujian. Rencana tersebut harus mengidentifikasi peralatan uji apa yang sudah ada dan apa yang  perlu dibeli.Responsibilitas atau tanggung jawab, pada bagian ini akan disampaikan tugas dan penanggung jawab selama proses pengujian / testing software. Schedule atau jadwal ini juga menjadi bagian yang penting dalam tes plan, dimana schedule sendiri akan memuat time schedule yang berfungsi untuk mengatur rentang waktu setiap bagian tugas.planning Risks And Contingencies Untuk tahap ini sendiri dilakukan dengan tujuan memeriksa / mengontrol risiko dari beberapa bagian yang tidak masuk dalam control pengerjaan software namun keberadaannya dapat memberikan dampak langsung terhadap proses testing.emudian bagian terakhir, yaitu Glossary. Glossary ini sendiri berisi daftar kata atau istilah yang jarang ditemukan atau asing bagi sebagian orang, namun digunakan di dalam laporan test plan. 
+
+#pertanyaan
+- Thalia Amira : 
+Jelaskan secara singkat manfaat dan tujuan dari test plan?
+jawaban : test plan dibuat dengan tujuan agar testing dilakukan secara terarah, baik dari segi bagian yang diujikan, rentang waktu maupun penanggung jawab dari testing. Dokumen ini juga merupakan bentuk kesepakatan antara developer dengan pihak penguji
+
+- M. Yudha Erian:
+contoh dari glossary ?
+jawaban : dokumen test plan merupakan dokumen umum yang dapat dibaca oleh orang TI maupun non-TI, sehingga terdapat kemungkinan orang yang non-TI tidak memahami beberapa kalimat yang ada didalam dokumen. contoh: requirement, software, hardware.
+
+#rangkuman bab 2
+Ada beberapa pendapat mengenai jenis pengujian perangkat lunak. Jika ditinjau dari sudut pandang kebutuhan pengguna, pengujian perangkat lunak dapat dibagi menjadi dua jenis yaitu pengujian fungsional dan pengujian non fungsional.
+Pengujian Fungsional (Functional Testing)
+Pengujian fungsional adalah jenis pengujian perangkat lunak yang melakukan validasi hasil implementasi perangkat lunak terhadap kebutuhan atau spesifikasi dari pengguna. 
+Tujuan dari pengujian ini adalah untuk menguji masing-masing fungsi atau fitur pada perangkat lunak yang dibuat dengan memberikan input dan memvalidasi output yang dihasilkan berdasarkan kebutuhan fungsional.
+Pengujian Non Fungsional (Non-Functional Testing)
+Pengujian non fungsional adalah testing yang memeriksa aspek aspek non fungsional 
+dari sistem perangkat lunak yang dibuat seperti performa, manajemen memori, usability dan 
+lain lain. Pengujian ini bertujuan meningkatkan usability, efisiensi, maintainability 
+dan portability dari produk perangkat lunak yang dihasilkan, serta membantu 
+mengurangi resiko produksi dan biaya yang ada pada aspek non fungsional dari perangkat 
+lunak yang dibuat.
+Berikut Perbedaan dari Pengujian Fungsional dan Pengujian Non- Fungsional:
+A.	Pengujian Fungsional: 
+1.)	Pengujian fungsional dilaksanakan berdasarkan spesifikasi fungsional yang dibuat oleh pengguna yang dilakukan pada pengujian ini adalah melakukan verifikasi hasil dari sistem terhadap kebutuhan fungsional yang dibuat oleh pengguna.
+2.)	Fungsional testing dilaksanakan terlebih dahulu.
+3.)	Manual testing atau alat otomasi dapat digunakan untuk proses fungsional testing.
+4.)	Proses bisnis menjadi input untuk fungsional testing.
+5.)	Fungsional testing mendeskripsikan apa yang dapat dilakukan oleh produk yang dibuat.
+6.)	Manual testing dapat dilakukan dengan mudah pada fungsional testing.
+Contoh Pengujian Fungsional:
+a.	Unit Testing 
+b.	Smoke Testing 
+c.	Sanity Testing 
+d.	Integration Testing 
+e.	White box testing 
+f.	Black Box testing 
+g.	User Acceptance testing 
+h.	Regression Testing 
+i.	Alpha-Beta Testing
+
+B.	Pengujian Non- Fungsional:
+1.)	Pengujian Non Fungsional memeriksa performa, reliabilitas, skalabilitas dan fungsi non fungsional lain dari perangkat lunak yang dihasilkan.
+2.)	Non fungsional testing dilaksanakan setelah fungsional testing selesai dilakukan.
+3.)	Pengujian menggunakan tool atau alat bantu lebih efektif untuk proses testing ini.
+4.)	Parameter performa seperti kecepatan, skalabilitas menjadi input untuk non fungsional testing.
+5.)	Non fungsional testing mendeskripsikan seberapa baik produk dapat bekerja.
+6.)	Manual testing sulit dilakukan pada non fungsional testing.
+Contoh Pengujian Non- Fungsional: 
+a.	Performance Testing 
+b.	Load Testing 
+c.	Volume Testing
+d.	Stress Testing
+e.	Security Testing
+f.	Installation Testing
+g.	Penetration Testing 
+h.	Compatibility Testing 
+i.	Migration Testin
+
+#pertanyaan
+- Zalna :
+Apa persamaan pengujian fungsional dan non fungsional ?
+Jawaban : Sama sama diuji dan pengujian dapat menggunakan Manual Testing dan Automated Testing
+
+- Devi :
+Apa kekurangan dari pengujian fungsional dan non fungsional ?
+Jawaban : Mahal dibiaya pengujian. harus membayar engineer dalam melakukan pengujian perangkat lunak tsb.
+
+#rangkuman bab 4
+Node.js adalah runtime environment untuk JavaScript yang bersifat open-source dan cross-platform. Sedangkan Node Package Manager (NPM) merupakan sebuah perangkat yang digunakan untuk memanajemen package (library) berbasis NodeJS. Jest merupakan framework untuk menguji unit pada proyek dengan Bahasa pemrograman java script khususnya berbasis nodeJS. Dengan  menggunakan proyek sebelumnya kita akan melakukan instalasi Jest.
+
+#pertanyaan
+-fransiska
+pada penamaan file tambah.test.js apakah default nama test atau bisa ditentukan dan juga apa nama function dapat diubah?
+Jawaban : untuk penamaan file tambah.test.js dapat diubah akan tetapi pada .test harus mengacu pada file package.json yang dimana disana ada sintak test dan kemudian pada penamaan code function dapat diubah asalkan pada kode berkutnya harus mengikuti nama function nya.
